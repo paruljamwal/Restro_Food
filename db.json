@@ -1,0 +1,16 @@
+{
+    "food":[
+        {
+            "Name": "Delight",
+            "Title": "Pasta",
+            "Cost": "100",
+            "Card": "True",
+            "Votes": "200",
+            "Review": "104",
+            "Rating": "4",
+            "Image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FSeries%2F2021-02-snapshot-cooking-five-ingredient-instant-pot-meals%2FInstant-pot-penne-pasta%2FKitchn_InstantPot_PennePasta_226",
+            "Loved": "2000",
+            "id": 1  
+        }
+    ]
+}

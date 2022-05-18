@@ -1,0 +1,54 @@
+.box{
+    
+    
+    width: 60%;
+    background-color: aliceblue;
+    height: 450px;
+    display: flex;
+    margin: auto;
+}
+
+.food{
+    width: 300px;
+    margin: 10px;
+    border-radius: 60px;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: teal;
+    color: whitesmoke;
+    margin-left: 75%;
+    cursor: pointer;
+
+}
+
+.red{
+    color: rgb(207, 3, 3);
+}
+.gray{
+    color: gray;
+}
+
+.green{
+    background-color: greenyellow;
+    color: whitesmoke;
+    font-weight: bolder;
+    width: 40px;
+    color: yellow;
+    height: 30px;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+     
+}
+
+.vote{
+    margin-left: 50%;
+     width: 300px;
+  
+}

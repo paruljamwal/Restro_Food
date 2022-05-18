@@ -1,0 +1,20 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+    height:80px;
+    padding-top: 1%;
+    font-weight: bold;
+    position: sticky;
+}
+
+.logo{
+    height: 50px;
+}
+
+.right{
+    display: flex;
+    margin-top: 30px;
+    gap: 100%;
+    margin-left: 80px;
+}
