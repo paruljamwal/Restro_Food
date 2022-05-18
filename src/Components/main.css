@@ -1,7 +1,7 @@
 .box{
     
     
-    width: 60%;
+    width: 80%;
     background-color: aliceblue;
     height: 450px;
     display: flex;
@@ -51,4 +51,9 @@
     margin-left: 50%;
      width: 300px;
   
+}
+
+.left{
+  
+  width: 400px;
 }

@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './main.css'
-import {BsStarFill} from 'react-icons/bs'
-
+import {BsStarFill} from 'react-icons/bs';
+import {FaVoteYea} from 'react-icons/fa'
+import {MdOutlineReviews} from 'react-icons/md'
+import {MdShoppingBasket} from 'react-icons/md'
 const Main = () => {
     const [data,setData]=useState([])
 useEffect(()=>{
@@ -24,7 +26,7 @@ useEffect(()=>{
                 <div>
 
                <div className='content'>
-                <div>
+                <div className='left'>
 
                 <h1 className='red'>{e.Name}</h1>
                  <h3 className='gray'> {e.Title}</h3>
@@ -34,8 +36,8 @@ useEffect(()=>{
                 </div>
                  <div className='vote'>
                   <p className='green'>{e.Rating}  <BsStarFill/> </p>
-                  <p className='gray'>{e.Votes} Votes</p>
-                  <p className='gray'>{e.Review} Reviews</p>
+                  <p className='gray'>{e.Votes} Votes <FaVoteYea/></p>
+                  <p className='gray'>{e.Review} Reviews <MdOutlineReviews/></p>
                  </div>
                  </div>
 
@@ -43,16 +45,17 @@ useEffect(()=>{
                   <p>{e.Loved} people love</p>
                   <p>Accepts online payments only</p>
                   <hr />
-                  <button className='btn'>Order Online</button>
-            
+                  <button className='btn'> Order  <MdShoppingBasket/></button>
+                  
                 </div>
-            
-            
+               
             </div>
+            
         ))
-    }
-        
+      }
+    
     </div>
+    
   )
 }
 
