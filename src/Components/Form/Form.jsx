@@ -16,7 +16,7 @@ const Form = () => {
 
   const handelSubmit = (e) => {
     e.preventDefault()
-    fetch('http://localhost:8090/food',{
+    fetch('http://localhost:8080/food',{
       method:"POST",
       headers:{"content-type" :"application/json"},
       body:JSON.stringify(data)

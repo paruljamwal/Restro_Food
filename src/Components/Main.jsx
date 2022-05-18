@@ -10,7 +10,7 @@ useEffect(()=>{
     getData();
 },[])
     async function getData(){
-        const data=await fetch(`http://localhost:8090/food`)
+        const data=await fetch(`http://localhost:8080/food`)
         .then((d)=>d.json())
      setData(data)
     }  
