@@ -11,6 +11,19 @@
       "Image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FSeries%2F2021-02-snapshot-cooking-five-ingredient-instant-pot-meals%2FInstant-pot-penne-pasta%2FKitchn_InstantPot_PennePasta_226",
       "Loved": 2000,
       "id": 1
+    }
+    ,
+    {
+      "Image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_140,h_140,c_fill/htlu9crqw84avmlwrzyl",
+      "Name": "Sweet Bread",
+      "Title": "Yummy",
+      "Cost": "976",
+      "Votes": "76765",
+      "Card": "True",
+      "Rating": "1",
+      "Review": "7656",
+      "Loved": "1345",
+      "id": 3
     },
     {
       "Name": "Pizza",
@@ -18,23 +31,11 @@
       "Image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/y854hxse2ikmroydtmzx",
       "Cost": "454",
       "Votes": "4345",
-      "Card": "false",
+      "Card": "False",
       "Rating": "3",
       "Review": "7876",
       "Loved": "999",
       "id": 2
-    },
-    {
-      "Image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_140,h_140,c_fill/htlu9crqw84avmlwrzyl",
-      "Name": "Sweet Bread",
-      "Title": "Yummy",
-      "Cost": "976",
-      "Votes": "76765",
-      "Card": "true",
-      "Rating": "1",
-      "Review": "7656",
-      "Loved": "1345",
-      "id": 3
     }
   ]
 }

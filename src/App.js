@@ -11,10 +11,10 @@ function App() {
     <div className="App">
 
     <Header></Header>
+    <button className='change' onClick={()=>{setShow(!show)}}>{show ? "Add Items" : "Home page"}</button>
     {show ? <Main></Main> 
      : <Form></Form>}
     
-     <button onClick={()=>{setShow(!show)}}>{show ? "Add Items" : "Home page"}</button>
   
     </div>
   );

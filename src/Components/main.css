@@ -1,11 +1,13 @@
 .box{
     
-    
+    border: 2px solid rgb(42, 183, 238);
     width: 80%;
     background-color: aliceblue;
-    height: 450px;
+    height: 400px;
     display: flex;
     margin: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
 
 .food{
@@ -56,4 +58,14 @@
 .left{
   
   width: 400px;
+}
+
+.choose{
+    padding: 10px 15px;
+    margin: 0px 5px 10px 5px;
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    color: navy;
+    font-weight: bold;
 }
